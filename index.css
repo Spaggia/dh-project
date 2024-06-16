@@ -1,0 +1,8 @@
+#background_capa 
+{
+    background-image: url('Robert_Capa.jpg');
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
