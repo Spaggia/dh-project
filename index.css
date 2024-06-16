@@ -6,3 +6,12 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.immaginecarosello
+{
+    height: 600px;
+    object-fit: cover;
+}
+#map
+{
+     height: 600px; 
+}
