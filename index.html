@@ -30,14 +30,12 @@
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-     crossorigin=""/>
-	 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-	 integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-	 crossorigin="">
-	 </script>
-	 <script src="index.js">
-	 </script>
+		integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+		integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="">
+		</script>
+	<script src="index.js">
+	</script>
 </head>
 
 <body>
@@ -65,13 +63,22 @@
 			<div id="carosello-home" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="2000">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="sicilia.jpg" class="w-100 d-block immaginecarosello" alt="..." title="...">
+						<img src="miliziano.jpg" class="w-100 d-block immaginecarosello" alt="..." title="...">
+						<div class="carousel-caption d-none d-md-block">
+							<p>Un combattente spagnolo viene colpito a morte sul fronte Andaluso</p>
+						</div>
 					</div>
 					<div class="carousel-item">
-						<img src="miliziano.jpg" class="w-100 d-block immaginecarosello" alt="..." title="...">
+						<img src="sicilia.jpg" class="w-100 d-block immaginecarosello" alt="..." title="...">
+						<div class="carousel-caption d-none d-md-block">
+							<p>Un contadino siciliano fornisce indicazioni ad un soldato americano</p>
+						</div>
 					</div>
 					<div class="carousel-item">
 						<img src="dday.jpg" class="w-100 d-block immaginecarosello" alt="..." title="...">
+						<div class="carousel-caption d-none d-md-block">
+							<p>Un soldato alleato emerge dalle fredde acque di Omaha Beach</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -79,8 +86,8 @@
 		<section class="container-fluid">
 			<div class="container mt-5">
 				<h1>blablablabla inserisci titolo qui</h1>
-				<p class="text-justify"> 
-					inserisci qui il paragrafo 
+				<p class="text-justify">
+					inserisci qui il paragrafo
 					<em> in corsivo </em>
 					<strong> grassetto </strong>
 				</p>
@@ -109,18 +116,21 @@
 							Places
 						</div>
 					</div>
+					<div class="col-4">
+						<p class="text-justify">
+							Wikipedia
+						</p>
+						<div class="btn btn-primary" href="https://en.wikipedia.org/wiki/Robert_Capa" role="button">
+							Wikipedia Link
+						</div>
+					</div>
 				</div>
-			</div>
 		</section>
 		<section class="container-fluid" id="background_capa">
 			<div class="row">
-				<div class="col-md-6">
-					<p class="text-justify">
-						Robert Capa fu uno dei più grandi fotografi di guerra del Novecento
-					</p>
-					<a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Robert_Capa" role="button">Wikipedia Link</a>
+				<div class="col-md-6" id="wiki">
 					<p class="fst-italic">
-						Photographer Robert Capa during the Spanish civil war, May 1937. Photo by Gerda Taro 
+						Photographer Robert Capa during the Spanish civil war, May 1937. Photo by Gerda Taro
 					</p>
 				</div>
 			</div>
