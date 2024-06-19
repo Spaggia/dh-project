@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root origine="lista.html">
+    <object number="3">
+        <titolo>Face in the Surf</titolo>
+        <autore>Robert Capa</autore>
+        <data>6 Giugno 1944</data>
+        <tipologia>Fotografia</tipologia>
+        <appare>Rivista LIFE 19 Giugno 1944, pagina 27</appare>
+        <digitalizzato>The Life picture collection</digitalizzato>
+        <siti>
+            <p>Shutterstock Collection</p>
+            <p>Life on Google Arts and Culture</p>
+        </siti>
+    </object>
+</root>
