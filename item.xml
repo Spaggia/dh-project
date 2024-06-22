@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root origine="lista.html">
-    <object number="3">
-        <titolo>Face in the Surf</titolo>
-        <autore>Robert Capa</autore>
-        <data>6 Giugno 1944</data>
-        <tipologia>Fotografia</tipologia>
-        <appare>Rivista LIFE 19 Giugno 1944, pagina 27</appare>
-        <digitalizzato>The Life picture collection</digitalizzato>
-        <siti>
-            <p>Shutterstock Collection</p>
-            <p>Life on Google Arts and Culture</p>
-        </siti>
-    </object>
-</root>
+
+<origine
+    xmlns:xsi="http://robert capa" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <soggetto>
+        <dc:title>Face in the Surf</dc:title>
+        <dc:creator>Robert Capa</dc:creator>
+        <dc:subject>Huston Riley</dc:subject>
+        <dc:description>Un soldato alleato emerge dalle acque davanti ad Omaha Beach</dc:description>
+        <dc:publisher>The Life picture collection</dc:publisher>
+        <dc:date>1944-06-06</dc:date>
+        <dc:type>Fotografia</dc:type>
+        <dc:format>1280x849 pixel</dc:format>
+        <dc:source>pagina 27 di LIFE del 19 Giugno 1944</dc:source>
+        <dc:language>EN</dc:language>
+        <dc:relation>Magnificent 11</dc:relation>
+        <dc:coverage>Seconda Guerra Mondiale</dc:coverage>
+        <dc:rights>Diritti riservati di Magnum Photos</dc:rights>
+    </soggetto>
+</origine>
